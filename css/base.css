@@ -422,6 +422,16 @@ textarea {
 /* ------------------------------------------------------------------- 
  * small screens - (_grid.scss)
  * ------------------------------------------------------------------- */
+ @media screen and (min-width: 1280px){
+  .row .row {
+    margin-left: -18px;
+    margin-right: -18px;
+  }
+
+  [class*="col-"] {
+    padding: 0 18px;
+  }
+ }
 @media screen and (max-width: 1024px) {
   .row .row {
     margin-left: -18px;
