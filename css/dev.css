@@ -1,0 +1,242 @@
+
+/* Hero Section */
+.heroTitleContainer{
+    margin-top: 120px;
+}
+
+.heroWhite__title{
+    font-size: 35px;
+    color: white;
+}
+
+.MyTools{
+    width: 50%;
+    height: 40%;
+    /* border: 2px solid gray; */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.mystackLead{
+    font-size: 25px;
+    color: rgb(196, 192, 192);
+    /* margin-top: 10px; */
+}
+/* Mobile media */
+/* Hero Section */
+@media (max-width: 400px){
+    .heroTitleContainer{
+        margin-top: 60px;
+    }
+    .heroWhite__title{
+        font-size: 100%;
+        color: white;
+    }
+
+    .MyTools{
+        width: 100%;
+        height: 40%;
+        border: none;
+        position: absolute;
+        top: 35%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    .mystackLead{
+        font-size: 80%;
+        color: rgb(196, 192, 192);
+        margin-top: 10px;
+    }
+
+}
+
+
+/* Portfolio Section */
+
+#mywork{
+    width: 100%;
+    height: 70%;
+    background-color: rgb(66, 66, 66);
+    padding-top: 60px;
+}
+
+.Projects{
+    text-align: center;
+    
+}
+
+.projectImage{
+    width: 100%;
+    border-radius: 10px;
+}
+
+
+.projectImageTwitter{
+    width: 100%;
+    height: 70%;
+    border-radius: 10px;
+}
+
+.cardContainer{
+    display: flex;
+    width: 100%;
+    height: 60%;
+    /* border: 1px solid rgb(103, 101, 101); */
+    margin-top: 60px;
+    justify-content: center;
+   
+    
+}
+
+.card{
+    width: 20%;
+    height: 100%;
+    border: 1px solid rgb(232, 229, 229);
+    margin-right: 30px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.goLive{
+    width: 30%;
+    height: 60px;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    margin-left: 250px;
+
+}
+
+/* Mobile media */
+/* Portfolio Section */
+@media (max-width: 400px) {
+
+    #mywork{
+        width: 100%;
+        height: 180%;
+        background-color: rgb(77, 76, 76);
+        padding-top: -60px;
+    }
+
+    .cardContainer{
+        display: block;
+        width: 100%;
+        height: 100%;
+        /* border: 1px solid rgb(206, 17, 17); */
+
+    }
+
+    .card{
+        width: 100%;
+        height: 30%;
+        border: 4px solid rgb(237, 236, 236);
+        /* margin-right: 30px; */
+        margin-top: 20px;
+    }
+
+    .projectImageTwitter{
+        width: 100%;
+        height: 60%;
+        border-radius: 10px;
+    }
+
+    .goLive{
+        width: 34%;
+        height: 12%;
+        background-color: black;
+        color: white;
+        border-radius: 5px;
+        
+        
+    }
+
+
+    /* Your CSS styles for mobile phones go here */
+  }
+
+  /* Footer */
+
+  .hireMeContainer{
+    width: 250px;
+    height: 65px;
+    /* background-color: brown; */
+    margin-left: 34%;
+  }
+
+  /* Mobile media */
+    /* Footer */
+  @media (max-width: 400px){
+    .hireMeContainer{
+        width: 250px;
+        height: 65px;
+        /* background-color: brown; */
+        margin-left: 14%;
+      }
+  }
+
+  /* Tab media  */
+  /* Hero section */
+/* 
+  @media (min-width: 601px), (max-width: 768px) {
+    .heroTitleContainer{
+        margin-top: 60px;
+    }
+
+    .heroWhite__title{
+        font-size: 100%;
+        color: white;
+    }
+
+    .MyTools{
+        width: 100%;
+        height: 40%;
+        border: none;
+        position: absolute;
+        top: 35%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    .mystackLead{
+        font-size: 100%;
+        color: rgb(196, 192, 192);
+        
+    } */
+
+    /* projects */
+/* 
+    #mywork{
+        width: 100%;
+        height: 180%;
+        background-color: rgb(77, 76, 76);
+        
+    }
+
+    .cardContainer{
+        display: block;
+        width: 100%;
+        height: 90%;
+        margin-left: 25%;
+      
+
+    }
+
+    .card{
+        width: 50%;
+        height: 32%;
+        border: 4px solid rgb(237, 236, 236);
+        margin-top: 5%;
+       
+    } */
+
+    /* Footer */
+
+    .footer-bottom{
+        position: relative;
+        top: 5%;
+    }
+
+  
