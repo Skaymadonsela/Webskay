@@ -1,7 +1,7 @@
 
 /* Hero Section */
 .heroTitleContainer{
-    margin-top: 120px;
+    margin-top: 30px;
 }
 
 .heroWhite__title{
@@ -22,7 +22,7 @@
 .mystackLead{
     font-size: 16px;
     color: rgb(196, 192, 192);
-    /* margin-top: 10px; */
+    margin-top: 10px;
 }
 /* Mobile media */
 /* Hero Section */
